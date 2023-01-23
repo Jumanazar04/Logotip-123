@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+    list-style: none;
+}
+.header {
+    width: 1440px;
+    height: 880px;
+    margin: auto;
+    background: #F0F0F0;
+}
+.contianer {
+    width: 1200px;
+    margin: auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.email {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.email div {
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-one {
+    width: 630px;
+}
+.hero {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+h1 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+
+}
+.hero-one p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    opacity: 0.6;
+    padding-bottom: 30px;
+}
+.hero button {
+    width: 216px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+}
+.btn {
+    background-color: red;
+    color: white;
+    border: 0px solid red;
+    margin-right: 30px;
+}
+.btn2 {
+    color: #161A2B;;
+    border: 2px solid #161A2B
+}
+.box {
+    width: 1200px;
+    height: 585px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.child {
+    border: 2px solid rgb(99, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child:nth-child(1) {
+    grid-column: 1/3;
+}
+.child:nth-child(2) {
+    grid-column: 3/7;
+}
+.child:nth-child(3) {
+    grid-column: 7/11;
+}
+.child:nth-child(4) {
+    grid-column: 11/13;
+}
+.child:nth-child(5) {
+    grid-column: 1/5;
+}
+.child:nth-child(6) {
+    grid-column: 5/9;
+}
+.child:nth-child(7) {
+    grid-column: 9/13;
+}
+.child:nth-child(8) {
+    grid-column: 1/3;
+}
+.child:nth-child(9) {
+    grid-column: 3/7;
+}
+.child:nth-child(10) {
+    grid-column: 7/11;
+}
+.child:nth-child(11) {
+    grid-column: 11/13;
+}
